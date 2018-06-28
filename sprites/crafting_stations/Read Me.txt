@@ -1,0 +1,9 @@
+To add a new crafting staion, just add the image to this folder.
+
+*Note: Name the image with a name you'll understand to find it easier when placing tiles.
+
+**Note: The files are read alphabetically, so if you add a new image, it may mess up existing crafting stations.
+To avoid this happening, put a number in front of the image name, eg. "1-anvil.png", so that the files are read
+in the order you want.
+
+**Note: Removing files will mess up existing crafting stations.
