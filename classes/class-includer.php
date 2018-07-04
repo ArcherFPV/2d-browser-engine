@@ -1,7 +1,7 @@
 <?php
-$classes = scandir(".");
+$classes = scandir("classes");
 foreach($classes AS $class){
     if(strstr($class,".class.php")){
-        require($class);
+        require("classes/$class");
     }
 }
