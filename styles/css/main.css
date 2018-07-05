@@ -1,0 +1,20 @@
+#mapWrap{
+    position:relative;
+    width: 960px;
+    height: 640px;
+    margin:0 auto;
+    border: 1px solid #000000;
+}
+
+#mapWrap .cellWrap{
+    position:relative;
+    float:left;
+    width:32px;
+    height:32px;
+}
+
+#mapWrap .cellWrap > div{
+    position:absolute;
+    width:100%;
+    height:100%;
+}

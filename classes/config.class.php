@@ -5,7 +5,7 @@ class config{
     public $config = array();
 
     public function getConfig(){
-        $qString = "SELECT id,authReq FROM config";
+        $qString = "SELECT id,authReq,url,siteTitle FROM config";
         $res = $this->sqli->query($qString);
         while($r = $res->fetch_assoc()){
             foreach($r AS $col => $val){

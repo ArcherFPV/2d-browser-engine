@@ -1,6 +1,8 @@
 CREATE TABLE `config` (
 	`id` INT(11) NOT NULL AUTO_INCREMENT,
 	`authReq` INT(11) NOT NULL DEFAULT '0',
+	`url` TINYTEXT NULL,
+	`siteTitle` TINYTEXT NULL,
 	PRIMARY KEY (`id`)
 )
 COLLATE='latin1_swedish_ci'
