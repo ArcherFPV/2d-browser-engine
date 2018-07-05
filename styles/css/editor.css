@@ -1,0 +1,29 @@
+#mapWrap.editor .cellWrap > div{
+    position:absolute;
+    width:30px;
+    height:30px;
+    border:1px solid #000000;
+}
+
+.cellXY{
+    z-index: 1;
+    font-size: 9px;
+    padding: 5px 0 0 5px;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+#editConsole{
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+}
+
+.selectTile{
+    position:relative;
+    float: left;
+    width:30px;
+    height:30px;
+    border:1px solid #000;
+}

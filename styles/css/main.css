@@ -15,6 +15,34 @@
 
 #mapWrap .cellWrap > div{
     position:absolute;
-    width:100%;
-    height:100%;
+    width:32px;
+    height:32px;
+}
+
+.backGround1{
+    z-index: 2;
+}
+.backGround1a{
+    z-index: 3;
+}
+.backGround2{
+    z-index: 4;
+}
+.backGround2a{
+    z-index: 5;
+}
+.playerLayer1{
+    z-index: 6;
+}
+.foreGround1{
+    z-index: 7;
+}
+.foreGround1a{
+    z-index: 8;
+}
+.foreGround2{
+    z-index: 9;
+}
+.foreGround2a{
+    z-index: 10;
 }
